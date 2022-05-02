@@ -1,0 +1,77 @@
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #00838D;
+}
+
+.paginacao {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.paginacao .btn-sesc {
+  display: flex;
+  padding: 0;
+}
+
+.paginacao .btn-sesc[disabled]{
+  opacity: 0.7;
+  border: 2px solid #333;
+  color: #333;
+}
+
+.paginacao .btn-sesc[disabled] a {
+  color: #333;
+}
+
+.paginacao .btn-sesc[disabled] a:hover {
+  color: #333;
+  background-color: #efefef;
+}
+.paginacao .btn-sesc[disabled]:hover{
+  transform: translateY(0);
+}
+
+.paginacao .btn-sesc a {
+  padding: 6px 15px;
+  text-decoration: none;
+  color: #00838D;
+}
+
+.paginacao .btn-sesc a:hover {
+  color: #00838D;
+}
+
+.paginacao .btn-sesc a.active {
+  padding: 6px 15px;
+  text-decoration: none;
+  color: #00838D;
+  text-decoration: underline;
+}
+
+/* carrosel ajuste centralizar img */
+
+.carousel.sesc .carousel-item {
+  text-align: center;
+}
+
+.carousel__img {
+  max-height: 360px;
+}
+
+/* imagens em geral */
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+}
