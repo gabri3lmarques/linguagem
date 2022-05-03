@@ -158,7 +158,43 @@ img {
 .icone.exemplo::before {
   background-image: url(../../images/icone_exemplo2.png);
 }
-/* 
+
+.icone.final::before {
+  background-image: url(../../images/icone_final.png);
+}
+
+.icone.nota::before {
+  background-image: url(../../images/icone_nota.png);
+}
+
+.icone.dica::before {
+  background-image: url(../../images/icone_dica.png);
+}
+
+.botoes-fala {
+  display: flex;
+  justify-content: center;
+}
+
+.botao-fala1 {
+  background-image: url(../../images/modal-botao-6.png);
+  height: 220px;
+  width: 254px;
+
+}
+
+.botao-fala1:hover,
+.botao-fala2:hover {
+  background-position: right center;
+  cursor: pointer;
+}
+
+.botao-fala2 {
+  background-image: url(../../images/modal-botao-7.png);
+  height: 210px;
+  width: 260px;
+}
+
 .map-img {
   position: relative;
 }
@@ -169,7 +205,11 @@ area[title]:hover:after {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-} */
+  background-color: #fff;
+  padding: 10px;
+  border: 2px solid #00838D;
+  border-radius: 6px;
+}
 
 #mymap {
   width: 900px;
@@ -198,6 +238,12 @@ area {
 .botoes-bandeiras img:hover {
   opacity: 0.8;
   transform: scale(1.1);
+}
+
+.botoes-simples {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 900px) {

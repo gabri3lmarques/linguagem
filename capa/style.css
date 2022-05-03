@@ -36,8 +36,10 @@ body {
 
 .capa__left {
   position: relative;
-  overflow: hidden;
   width: 57%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .capa__left_img {
@@ -47,25 +49,6 @@ body {
 
 .capa__left_img--one {
   transform: rotateZ(-5deg);
-  right: 80px;
-}
-
-.capa__left_img--two {
-  transform: rotateZ(-5deg);
-  left: -222px;
-  top: 32px;
-}
-
-.capa__left_img--trhee {
-  height: 41vw;
-  position: absolute;
-  left: 5vw;
-  bottom: -50%;
-  transform: rotateZ(9deg);
-}
-
-.capa__left_img--four {
-  height: 50vw;
 }
 
 .capa__right {
